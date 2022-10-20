@@ -1,7 +1,10 @@
-# Images Gallery with three SideBar categories: "Movies", "Books" and "Albums" with pages pagination 
+# Images Gallery
 
-Ability to "Like" the image and add it to "Favorites" category 
+## Features 
 
+* Pages Pagination
+* React Routes : SideBar categories: "Movies", "Books" and "Albums"
+* Ability to "like" and "unlike" the image - adding / removing it to "Favorites"
 
 
 https://user-images.githubusercontent.com/82247833/196839943-d57cbf5c-d8e3-4856-8347-8511e19f4cb1.mp4
