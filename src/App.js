@@ -15,8 +15,8 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/Gallery_built_in_React" element={<Favorites />} />
-        <Route path="/movies" element={<Movies />} />
         <Route path="" element={<Favorites />} />
+        <Route path="/movies" element={<Movies />} />
         <Route path="/books" element={<Books />} />
         <Route path="/albums" element={<Albums />} />
       </Routes>
