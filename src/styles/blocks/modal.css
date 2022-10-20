@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600&display=swap");
+.item_detail {
+  display: flex;
+  height: 100%;
+  padding: 1rem 0.2rem;
+}
+
+.item_detail section:nth-child(1) {
+  margin-right: 2.4rem;
+  position: relative;
+}
+
+.item_detail img {
+  width: 270px;
+  height: 400px;
+}
+
+.item_title {
+  margin-bottom: 2rem;
+  text-align: start;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  margin-top: 10rem;
+  font-family: "Acme";
+}
+.btn-close {
+  box-shadow: none !important;
+  width: 1.3em;
+  height: 1.3em;
+}

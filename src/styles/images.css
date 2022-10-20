@@ -1,0 +1,118 @@
+.header__title {
+  text-align: center;
+  margin: 10px 0 5px;
+}
+
+.item__img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid var(--light-grey);
+  background: #f0f2f3;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+  transition: 350ms ease;
+}
+
+.item__name {
+  font-size: small;
+  font-weight: bold;
+  width: 100%;
+}
+
+.items-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1300px;
+  margin-top: 20px;
+}
+
+.items-list__item {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--light-grey);
+  border-radius: 10px;
+  height: 400px;
+  width: 20%;
+  min-width: 200px;
+  padding: 10px;
+  margin: 0 10px 20px;
+  transition: background 250ms ease-in-out;
+}
+
+.items-list__item:hover,
+.items-list__item:focus {
+  background: var(--light-grey);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.items-list__item .item__img {
+  height: 75%;
+}
+
+.items-list__item .item__name {
+  align-self: center;
+}
+
+.items-list__item .item__description,
+.items-list__item .item__genres {
+  display: none;
+}
+
+.items-list__item .item__mark {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.items-list[data-style="list"] .items-list__item .item__img {
+  width: 100px;
+}
+
+.toggelFavorite {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 2.2rem;
+}
+
+.itemlist {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 600px;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .items-list__item .item__img {
+    object-fit: contains;
+    height: 50%;
+    width: 60%;
+  }
+  .items-list__item {
+    width: none;
+  }
+  .toggelFavorite {
+    width: 60%;
+    height: 60%;
+    right: 2px;
+  }
+  .item__name {
+    font-size: small;
+    font-weight: normal;
+    width: 80%;
+    margin-top: -60px;
+    margin-left: 40px;
+  }
+}
