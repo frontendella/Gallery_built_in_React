@@ -5,6 +5,7 @@
 * Pages Pagination
 * React Routes : SideBar categories: "Movies", "Books" and "Albums"
 * Ability to "like" and "unlike" the image - adding / removing it to "Favorites"
+* Mobile responsive
 
 
 https://user-images.githubusercontent.com/82247833/196839943-d57cbf5c-d8e3-4856-8347-8511e19f4cb1.mp4
