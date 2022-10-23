@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Modal } from "react-bootstrap";
 
 const Dialog = (props) => {
@@ -10,7 +9,7 @@ const Dialog = (props) => {
           <section>
             <img
               className="item__img"
-              key={props.id}
+              key={props.thumbnailUrl}
               id={props.id}
               src={props.image}
               alt={props.title}
