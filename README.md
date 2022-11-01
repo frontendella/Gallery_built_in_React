@@ -2,7 +2,7 @@
 
 ## Features  
 
-* Pages Pagination 
+* Pages Pagination  
 * React Routes : SideBar categories: "Movies", "Books" and "Albums"
 * Ability to "like" and "unlike" the image - adding / removing it to "Favorites"
 * Mobile responsive
