@@ -1,6 +1,6 @@
 # Images Gallery     
   
-## Features      
+## Features         
    
 * Pages Pagination  
 * React Routes : SideBar categories: "Movies", "Books" and "Albums"
